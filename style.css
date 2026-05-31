@@ -4,12 +4,12 @@ body{
     display:flex;
     justify-content:center;
     align-items:center;
-    background:linear-gradient(135deg,#ff9a9e,#fad0c4);
+    background:linear-gradient(180deg, rgb(249, 79, 255),#540185,#000000);
     font-family:Arial;
 }
 
 .card{
-    background:white;
+    background: radial-gradient(20em,pink, #a421f0);
     padding:40px;
     border-radius:20px;
     text-align:center;
@@ -20,21 +20,24 @@ button{
     padding:12px 20px;
     border:none;
     border-radius:10px;
-    background:#ff4081;
+    background:#000000;
     color:white;
     cursor:pointer;
+    box-shadow:0 0 20px rgba(0,0,0,0.2);
     font-size:16px;
 }
 
 .popup{
+    width: 50%;
     position:fixed;
     top:50%;
     left:50%;
     transform:translate(-50%,-50%);
-    background:white;
+    background: radial-gradient(20em,rgb(255, 210, 217), #c463fc);
     padding:30px;
     border-radius:20px;
     box-shadow:0 0 30px rgba(0,0,0,0.3);
+    font-weight: bold;
 }
 
 .hidden{
